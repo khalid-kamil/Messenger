@@ -21,6 +21,7 @@
 		E9591CC625684F23000DA12A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9591CC525684F23000DA12A /* ProfileViewController.swift */; };
 		E9591CCB25685787000DA12A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9591CCA25685787000DA12A /* Extensions.swift */; };
 		E9591D29256ADF62000DA12A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9591D28256ADF62000DA12A /* GoogleService-Info.plist */; };
+		E9591D2C256AEAA9000DA12A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9591D2B256AEAA9000DA12A /* DatabaseManager.swift */; };
 		F0C600881B5692A7BBD5A79A /* Pods_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AF97E5601A19C03902BE08 /* Pods_Messenger.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		E9591CC525684F23000DA12A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E9591CCA25685787000DA12A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E9591D28256ADF62000DA12A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9591D2B256AEAA9000DA12A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				E9591C9925684B4F000DA12A /* AppDelegate.swift */,
 				E9591C9B25684B4F000DA12A /* SceneDelegate.swift */,
 				E9591CCA25685787000DA12A /* Extensions.swift */,
+				E9591D2B256AEAA9000DA12A /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9591CB625684E97000DA12A /* LoginViewController.swift in Sources */,
+				E9591D2C256AEAA9000DA12A /* DatabaseManager.swift in Sources */,
 				E9591CBA25684EAA000DA12A /* RegisterViewController.swift in Sources */,
 				E9591CC325684F0E000DA12A /* NewConversationViewController.swift in Sources */,
 				E9591C9E25684B4F000DA12A /* ConversationsViewController.swift in Sources */,
